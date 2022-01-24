@@ -18,7 +18,7 @@ PlayerSettings:
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 1, g: 0, b: 0, a: 1}
   m_ShowUnitySplashScreen: 1
-  m_ShowUnitySplashLogo: 0
+  m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 0
@@ -695,7 +695,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: MOREMOUNTAINS_NICEVIBRATIONS;MOREMOUNTAINS_NICEVIBRATIONS_RUMBLE;FLAG_DEV_PANEL
+    1: MOREMOUNTAINS_NICEVIBRATIONS;MOREMOUNTAINS_NICEVIBRATIONS_RUMBLE;FLAG_DEV_PANEL;ODIN_INSPECTOR;ODIN_INSPECTOR_3
     4: 
     7: MOREMOUNTAINS_NICEVIBRATIONS;MOREMOUNTAINS_NICEVIBRATIONS_RUMBLE;ODIN_INSPECTOR;ODIN_INSPECTOR_3;FLAG_WANNAPLAY
   additionalCompilerArguments: {}
@@ -789,11 +789,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 2
-  cloudProjectId: 847bdec7-a146-47c3-91fe-4b4dc703e40b 
+  cloudProjectId: 847bdec7-a146-47c3-91fe-4b4dc703e40b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Police Idle 
-  organizationId: zakhar-gadzhiev 
+  projectName: Police Idle
+  organizationId: zakhar-gadzhiev
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   virtualTexturingSupportEnabled: 0

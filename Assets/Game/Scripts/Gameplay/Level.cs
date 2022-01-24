@@ -56,7 +56,7 @@ public class Level : MonoBehaviour
 
 #if UNITY_EDITOR
     private void Update()
-    { 
+    {
         // Удачно завершаем уровень
         if (Input.GetKeyDown(KeyCode.Space)) OnLevelCompleted?.Invoke();
         // Неудачно завершаем уровень
