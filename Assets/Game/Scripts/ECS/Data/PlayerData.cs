@@ -6,5 +6,6 @@ public class PlayerData : MonoBehaviour
 {
     public Animator Animator;
     public CharacterController Controller;
+    public Weapon Weapon;
     
 }

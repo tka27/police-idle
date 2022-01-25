@@ -5,10 +5,12 @@ using UnityEngine;
 
 struct Player
 {
-    public PlayerData Data; 
+    public PlayerData Data;
     public float MoveSpeed;
 }
 
 struct MoveState { }
 struct IdleState { }
+struct BattleState { }
+struct Enemy { }
 

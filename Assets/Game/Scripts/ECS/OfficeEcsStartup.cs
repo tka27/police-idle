@@ -25,7 +25,6 @@ sealed class OfficeEcsStartup : MonoBehaviour
 
 
 
-
         .Init();
 
 
@@ -34,15 +33,17 @@ sealed class OfficeEcsStartup : MonoBehaviour
         .Add(new PlayerIdleSystem())
         .Add(new PlayerMoveSystem())
 
-
         .Init();
 
     }
 
-    void Update()
+    private void Update()
+    {
+        _systems?.Run();
+    }
+    private void FixedUpdate()
     {
         _fixedSystems?.Run();
-        _systems?.Run();
     }
 
     void OnDestroy()
